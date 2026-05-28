@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustracion de una feria rural digital</title>
+  <desc id="desc">Personas observando productos agricolas, una pantalla de datos y una mesa de inscripcion.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e9f7ef" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg)"/>
+  <circle cx="820" cy="96" r="58" fill="#fbbf24" opacity="0.75"/>
+  <rect x="90" y="116" width="330" height="270" rx="28" fill="#ffffff" stroke="#1f2937" stroke-width="5"/>
+  <rect x="130" y="158" width="250" height="34" rx="10" fill="#0f766e"/>
+  <rect x="130" y="216" width="210" height="22" rx="8" fill="#99f6e4"/>
+  <rect x="130" y="256" width="240" height="22" rx="8" fill="#bae6fd"/>
+  <rect x="130" y="296" width="180" height="22" rx="8" fill="#fde68a"/>
+  <rect x="130" y="338" width="125" height="34" rx="12" fill="#2563eb"/>
+  <rect x="500" y="145" width="330" height="200" rx="24" fill="#ffffff" stroke="#1f2937" stroke-width="5"/>
+  <rect x="545" y="270" width="52" height="45" fill="#22c55e"/>
+  <rect x="620" y="225" width="52" height="90" fill="#3b82f6"/>
+  <rect x="695" y="185" width="52" height="130" fill="#f97316"/>
+  <path d="M548 246 C610 208, 655 225, 720 166" fill="none" stroke="#111827" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="240" cy="440" r="46" fill="#0f766e"/>
+  <circle cx="238" cy="397" r="22" fill="#f8d7b5"/>
+  <rect x="202" y="454" width="78" height="60" rx="18" fill="#115e59"/>
+  <circle cx="708" cy="430" r="44" fill="#2563eb"/>
+  <circle cx="706" cy="389" r="21" fill="#f8d7b5"/>
+  <rect x="672" y="444" width="74" height="58" rx="18" fill="#1d4ed8"/>
+  <ellipse cx="480" cy="497" rx="360" ry="28" fill="#14532d" opacity="0.25"/>
+</svg>

@@ -1,0 +1,21 @@
+{
+  "name": "semana14-taller-usabilidad-accesibilidad-optimizacion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Taller practico Semana 14: mejora de usabilidad, accesibilidad, estructura y optimizacion web.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node scripts/check-project.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "chart.js": "^4.4.4",
+    "vite": "^5.4.8"
+  },
+  "devDependencies": {}
+}
