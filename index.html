@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semana 14 - Feria Rural Digital</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--
       PROYECTO BASE CON PROBLEMAS INTENCIONALES
       Tu reto es mejorar usabilidad, accesibilidad, estructura y optimizacion.
@@ -13,230 +15,245 @@
     -->
 
     <header class="site-header py-3 border-bottom">
-      <nav class="navbar navbar-expand-lg container" aria-label="Navegacion principal">
-        <a class="navbar-brand fw-bold" href="#inicio">Feria Rural Digital</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegacion">
+        <nav class="navbar navbar-expand-lg container" aria-label="Navegacion principal">
+            <a class="navbar-brand fw-bold" href="#inicio">Feria Rural Digital</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menu de navegacion">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="menuPrincipal">
-          <ul class="navbar-nav ms-auto gap-lg-2">
-            <li class="nav-item"><a class="nav-link" href="#problema">Problema</a></li>
-            <li class="nav-item"><a class="nav-link" href="#mejoras">Mejoras</a></li>
-            <li class="nav-item"><a class="nav-link" href="#datos">Datos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#inscripcion">Inscripcion</a></li>
-          </ul>
-        </div>
-      </nav>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#problema">Problema</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mejoras">Mejoras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#datos">Datos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#inscripcion">Inscripcion</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main id="inicio">
-      <section class="hero-section py-5">
-        <div class="container">
-          <div class="row align-items-center g-4">
-            <div class="col-lg-6">
-              <p class="badge rounded-pill text-bg-warning mb-3">Taller practico Semana 14</p>
-              <h1 class="display-5 fw-bold">Mejora una pagina web real antes de entregarla</h1>
-              <p class="lead texto-bajo-contraste">
-                Esta pagina funciona, pero tiene problemas intencionales de usabilidad, accesibilidad, estructura, diseno y optimizacion. Tu mision es detectarlos, corregirlos y documentar evidencias.
-              </p>
-              <div class="d-flex flex-wrap gap-2">
-                <a class="btn btn-primary btn-lg" href="#inscripcion">Inscribirme al taller</a>
-                <!-- Problema intencional: texto del boton poco claro. Debes mejorarlo. -->
-                <button class="btn btn-outline-secondary btn-lg" id="btnEvaluar">Click aqui</button>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <!-- Problema intencional: esta imagen no tiene atributo alt. Debes agregarlo. -->
-              <img class="img-fluid rounded-4 shadow hero-image" src="/img/feria-rural.svg">
-            </div>
-          </div>
-        </div>
-      </section>
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <p class="badge rounded-pill text-bg-warning mb-3">Taller practico Semana 14</p>
+                        <h1 class="display-5 fw-bold">Mejora una pagina web real antes de entregarla</h1>
+                        <p class="lead texto-bajo-contraste">
+                            Esta pagina funciona, pero tiene problemas intencionales de usabilidad, accesibilidad, estructura, diseno y optimizacion. Tu mision es detectarlos, corregirlos y documentar evidencias.
+                        </p>
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="btn btn-primary btn-lg" href="#inscripcion">Inscribirme al taller</a>
+                            <!-- Problema intencional: texto del boton poco claro. Debes mejorarlo. -->
+                            <button class="btn btn-outline-secondary btn-lg" id="btnEvaluar">
+                  Revisar diagnóstico del sitio
+                </button>
 
-      <section id="problema" class="py-5 bg-light">
-        <div class="container">
-          <div class="row g-4 align-items-start">
-            <div class="col-lg-5">
-              <h2 class="fw-bold">Situacion inicial</h2>
-              <p>
-                La vereda El Progreso quiere publicar una pagina para una feria escolar y rural. La pagina debe permitir consultar informacion, revisar datos de participacion e inscribirse a un taller.
-              </p>
-            </div>
-            <div class="col-lg-7">
-              <div class="row g-3">
-                <div class="col-md-6">
-                  <article class="card h-100 card-problema">
-                    <div class="card-body">
-                      <i class="bi bi-eye-slash fs-2" aria-hidden="true"></i>
-                      <h3 class="h5 mt-3">Accesibilidad debil</h3>
-                      <p>Algunos elementos no explican bien su funcion o no son faciles de interpretar.</p>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article class="card h-100 card-problema">
-                    <div class="card-body">
-                      <i class="bi bi-phone fs-2" aria-hidden="true"></i>
-                      <h3 class="h5 mt-3">Responsive incompleto</h3>
-                      <p>Algunas tarjetas y textos deben revisarse para funcionar mejor en celular.</p>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article class="card h-100 card-problema">
-                    <div class="card-body">
-                      <i class="bi bi-bug fs-2" aria-hidden="true"></i>
-                      <h3 class="h5 mt-3">Errores de consola</h3>
-                      <p>Existe una accion que genera error al hacer clic. Debes encontrarla y corregirla.</p>
-                    </div>
-                  </article>
-                </div>
-                <div class="col-md-6">
-                  <article class="card h-100 card-problema">
-                    <div class="card-body">
-                      <i class="bi bi-speedometer2 fs-2" aria-hidden="true"></i>
-                      <h3 class="h5 mt-3">Optimizacion pendiente</h3>
-                      <p>Hay codigo repetido y partes que pueden quedar mas limpias y faciles de mantener.</p>
-                    </div>
-                  </article>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="mejoras" class="py-5">
-        <div class="container">
-          <div class="text-center mb-4">
-            <h2 class="fw-bold">Criterios de mejora</h2>
-            <p class="text-muted">Usa estos criterios para revisar y corregir la pagina.</p>
-          </div>
-          <div class="row g-4">
-            <div class="col-md-6 col-xl-3">
-              <div class="feature-box h-100">
-                <i class="bi bi-ui-checks-grid fs-2" aria-hidden="true"></i>
-                <h3 class="h5 mt-3">Usabilidad</h3>
-                <p>Los botones, textos y rutas de navegacion deben ser faciles de entender.</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-              <div class="feature-box h-100">
-                <i class="bi bi-universal-access fs-2" aria-hidden="true"></i>
-                <h3 class="h5 mt-3">Accesibilidad</h3>
-                <p>La pagina debe incluir labels, alt, contraste, mensajes claros y navegacion comprensible.</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-              <div class="feature-box h-100">
-                <i class="bi bi-layout-text-window-reverse fs-2" aria-hidden="true"></i>
-                <h3 class="h5 mt-3">Estructura</h3>
-                <p>El HTML debe organizarse con secciones, titulos y componentes reutilizables.</p>
-              </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-              <div class="feature-box h-100">
-                <i class="bi bi-lightning-charge fs-2" aria-hidden="true"></i>
-                <h3 class="h5 mt-3">Optimizacion</h3>
-                <p>El proyecto debe cargar bien, tener codigo limpio y no mostrar errores en consola.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="datos" class="py-5 bg-light">
-        <div class="container">
-          <div class="row g-4 align-items-center">
-            <div class="col-lg-5">
-              <h2 class="fw-bold">Datos de participacion</h2>
-              <p>
-                Esta grafica usa Chart.js. Revisa que sea clara, responsive y que el usuario entienda que informacion presenta.
-              </p>
-              <ul class="list-group list-group-flush rounded-3">
-                <li class="list-group-item">Talleres: agricultura, tecnologia y emprendimiento.</li>
-                <li class="list-group-item">Usuarios principales: estudiantes, familias y comunidad.</li>
-                <li class="list-group-item">Objetivo: mejorar la experiencia antes de publicar.</li>
-              </ul>
-            </div>
-            <div class="col-lg-7">
-              <div class="card shadow-sm">
-                <div class="card-body">
-                  <h3 class="h5">Participantes estimados por taller</h3>
-                  <canvas id="participationChart" height="140" aria-label="Grafica de participantes por taller" role="img"></canvas>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="inscripcion" class="py-5">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="card shadow border-0">
-                <div class="card-body p-4 p-md-5">
-                  <h2 class="fw-bold">Formulario de inscripcion</h2>
-                  <p class="text-muted">Corrige y mejora este formulario para que sea mas claro, accesible y facil de usar.</p>
-
-                  <form id="registrationForm" novalidate>
-                    <div class="row g-3">
-                      <div class="col-md-6">
-                        <!-- Problema intencional: label sin for relacionado. Corrigelo. -->
-                        <label>Nombre completo</label>
-                        <input class="form-control" type="text" id="studentName" name="studentName" placeholder="Ejemplo: Ana Gomez">
-                      </div>
-                      <div class="col-md-6">
-                        <!-- Problema intencional: falta un label visible o correctamente asociado. -->
-                        <input class="form-control mt-md-4" type="email" id="studentEmail" name="studentEmail" placeholder="correo@ejemplo.com">
-                      </div>
-                      <div class="col-md-6">
-                        <label for="workshop" class="form-label">Taller de interes</label>
-                        <select class="form-select" id="workshop" name="workshop">
-                          <option value="">Selecciona una opcion</option>
-                          <option>Agricultura sostenible</option>
-                          <option>Tecnologia para la comunidad</option>
-                          <option>Emprendimiento rural</option>
-                        </select>
-                      </div>
-                      <div class="col-md-6">
-                        <label for="phone" class="form-label">Telefono de contacto</label>
-                        <input class="form-control" type="tel" id="phone" name="phone" placeholder="3001234567">
-                      </div>
-                      <div class="col-12">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="" id="acceptTerms">
-                          <label class="form-check-label" for="acceptTerms">
-                            Acepto que mis datos sean usados solo para el registro de la actividad.
-                          </label>
                         </div>
-                      </div>
                     </div>
-
-                    <!-- Problema intencional: este contenedor no anuncia mensajes a lectores de pantalla. Agrega aria-live o role="alert". -->
-                    <div id="formMessage" class="mt-3"></div>
-
-                    <div class="d-flex flex-wrap gap-2 mt-4">
-                      <button class="btn btn-success" type="submit">Enviar</button>
-                      <button class="btn btn-outline-dark" type="reset">Limpiar</button>
+                    <div class="col-lg-6">
+                        <!-- Problema intencional: esta imagen no tiene atributo alt. Debes agregarlo. -->
+                        <img class="img-fluid rounded-4 shadow hero-image" src="/img/feria-rural.svg" alt="Ilustración de una feria rural digital" />
                     </div>
-                  </form>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
+
+        <section id="problema" class="py-5 bg-light">
+            <div class="container">
+                <div class="row g-4 align-items-start">
+                    <div class="col-lg-5">
+                        <h2 class="fw-bold">Situacion inicial</h2>
+                        <p>
+                            La vereda El Progreso quiere publicar una pagina para una feria escolar y rural. La pagina debe permitir consultar informacion, revisar datos de participacion e inscribirse a un taller.
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <article class="card h-100 card-problema">
+                                    <div class="card-body">
+                                        <i class="bi bi-eye-slash fs-2" aria-hidden="true"></i>
+                                        <h3 class="h5 mt-3">Accesibilidad debil</h3>
+                                        <p>Algunos elementos no explican bien su funcion o no son faciles de interpretar.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6">
+                                <article class="card h-100 card-problema">
+                                    <div class="card-body">
+                                        <i class="bi bi-phone fs-2" aria-hidden="true"></i>
+                                        <h3 class="h5 mt-3">Responsive incompleto</h3>
+                                        <p>Algunas tarjetas y textos deben revisarse para funcionar mejor en celular.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6">
+                                <article class="card h-100 card-problema">
+                                    <div class="card-body">
+                                        <i class="bi bi-bug fs-2" aria-hidden="true"></i>
+                                        <h3 class="h5 mt-3">Errores de consola</h3>
+                                        <p>Existe una accion que genera error al hacer clic. Debes encontrarla y corregirla.</p>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-6">
+                                <article class="card h-100 card-problema">
+                                    <div class="card-body">
+                                        <i class="bi bi-speedometer2 fs-2" aria-hidden="true"></i>
+                                        <h3 class="h5 mt-3">Optimizacion pendiente</h3>
+                                        <p>Hay codigo repetido y partes que pueden quedar mas limpias y faciles de mantener.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="mejoras" class="py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="fw-bold">Criterios de mejora</h2>
+                    <p class="text-muted">Usa estos criterios para revisar y corregir la pagina.</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-xl-3">
+                        <div class="feature-box h-100">
+                            <i class="bi bi-ui-checks-grid fs-2" aria-hidden="true"></i>
+                            <h3 class="h5 mt-3">Usabilidad</h3>
+                            <p>Los botones, textos y rutas de navegacion deben ser faciles de entender.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="feature-box h-100">
+                            <i class="bi bi-universal-access fs-2" aria-hidden="true"></i>
+                            <h3 class="h5 mt-3">Accesibilidad</h3>
+                            <p>La pagina debe incluir labels, alt, contraste, mensajes claros y navegacion comprensible.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="feature-box h-100">
+                            <i class="bi bi-layout-text-window-reverse fs-2" aria-hidden="true"></i>
+                            <h3 class="h5 mt-3">Estructura</h3>
+                            <p>El HTML debe organizarse con secciones, titulos y componentes reutilizables.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="feature-box h-100">
+                            <i class="bi bi-lightning-charge fs-2" aria-hidden="true"></i>
+                            <h3 class="h5 mt-3">Optimizacion</h3>
+                            <p>El proyecto debe cargar bien, tener codigo limpio y no mostrar errores en consola.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos" class="py-5 bg-light">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-5">
+                        <h2 class="fw-bold">Datos de participacion</h2>
+                        <p>
+                            Esta grafica usa Chart.js. Revisa que sea clara, responsive y que el usuario entienda que informacion presenta.
+                        </p>
+                        <ul class="list-group list-group-flush rounded-3">
+                            <li class="list-group-item">Talleres: agricultura, tecnologia y emprendimiento.</li>
+                            <li class="list-group-item">Usuarios principales: estudiantes, familias y comunidad.</li>
+                            <li class="list-group-item">Objetivo: mejorar la experiencia antes de publicar.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5">Participantes estimados por taller</h3>
+                                <canvas id="participationChart" height="140" aria-label="Grafica de participantes por taller" role="img"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="inscripcion" class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="card shadow border-0">
+                            <div class="card-body p-4 p-md-5">
+                                <h2 class="fw-bold">Formulario de inscripcion</h2>
+                                <p class="text-muted">Corrige y mejora este formulario para que sea mas claro, accesible y facil de usar.</p>
+
+                                <form id="registrationForm" novalidate>
+                                    <div class="row g-3">
+
+                                        <div class="col-md-6">
+                                            <label for="studentName" class="form-label">Nombre completo</label>
+                                            <input class="form-control" type="text" id="studentName" name="studentName" placeholder="Ejemplo: Ana Gomez">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="studentEmail" class="form-label">Correo electrónico</label>
+                                            <input class="form-control" type="email" id="studentEmail" name="studentEmail" placeholder="correo@ejemplo.com">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="workshop" class="form-label">Taller de interés</label>
+                                            <select class="form-select" id="workshop" name="workshop">
+                <option value="">Selecciona una opción</option>
+                <option>Agricultura sostenible</option>
+                <option>Tecnología para la comunidad</option>
+                <option>Emprendimiento rural</option>
+            </select>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="phone" class="form-label">Teléfono de contacto</label>
+                                            <input class="form-control" type="tel" id="phone" name="phone" placeholder="3001234567">
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="acceptTerms">
+
+                                                <label class="form-check-label" for="acceptTerms">
+                    Acepto que mis datos sean usados solo para el registro de la actividad.
+                </label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div id="formMessage" class="mt-3" role="alert" aria-live="polite">
+                                    </div>
+
+                                    <div class="d-flex flex-wrap gap-2 mt-4">
+                                        <button class="btn btn-success" type="submit">
+            Enviar
+        </button>
+
+                                        <button class="btn btn-outline-dark" type="reset">
+            Limpiar
+        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="py-4 bg-dark text-white">
-      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
-        <p class="mb-0">Semana 14 - Taller practico de mejora web</p>
-        <p class="mb-0">Entrega: repositorio o carpeta + evidencias</p>
-      </div>
+        <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+            <p class="mb-0">Semana 14 - Taller practico de mejora web</p>
+            <p class="mb-0">Entrega: repositorio o carpeta + evidencias</p>
+        </div>
     </footer>
 
     <script type="module" src="/src/main.js"></script>
-  </body>
+</body>
+
 </html>
